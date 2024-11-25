@@ -1,0 +1,182 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #222;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.casino-games {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #f39c12;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #f39c12;
+    padding-bottom: 5px;
+}
+
+.game {
+    margin: 30px 0;
+    padding: 20px;
+    background: #333;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.reels, .higher-lower, .dice-game, .coin-flip-game {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+
+.reel {
+    width: 80px;
+    height: 100px;
+    background: #444;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    font-size: 2em;
+    line-height: 100px;
+    text-align: center;
+    color: #fff;
+    overflow: hidden;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.7);
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: #f39c12;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    margin: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #d35400;
+    transform: scale(1.05);
+}
+
+p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+#slotMessage, #cardMessage, #diceMessage, #coinMessage {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.coin-flip-game {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #222;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.casino-games {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #f39c12;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #f39c12;
+    padding-bottom: 5px;
+}
+
+.game {
+    margin: 30px 0;
+    padding: 20px;
+    background: #333;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.reels, .higher-lower, .dice-game, .coin-flip-game {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+
+.reel {
+    width: 80px;
+    height: 100px;
+    background: #444;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    font-size: 2em;
+    line-height: 100px;
+    text-align: center;
+    color: #fff;
+    overflow: hidden;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.7);
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: #f39c12;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    margin: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #d35400;
+    transform: scale(1.05);
+}
+
+p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+#slotMessage, #cardMessage, #diceMessage, #coinMessage {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.coin-flip-game {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}

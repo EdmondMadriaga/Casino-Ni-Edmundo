@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casino Games</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="casino-games">
+        <h1>Casino Games</h1>
+
+        <!-- Slot Machine -->
+        <div class="game">
+            <h2>Slot Machine</h2>
+            <div class="slot-machine">
+                <div class="reels">
+                    <div class="reel" id="reel1"></div>
+                    <div class="reel" id="reel2"></div>
+                    <div class="reel" id="reel3"></div>
+                </div>
+                <button id="spinButton">Spin</button>
+                <p id="slotMessage"></p>
+            </div>
+        </div>
+
+        <!-- Higher or Lower -->
+        <div class="game">
+            <h2>Higher or Lower</h2>
+            <div class="higher-lower">
+                <p>Current Card: <span id="currentCard"></span></p>
+                <button id="higherButton">Higher</button>
+                <button id="lowerButton">Lower</button>
+                <p id="cardMessage"></p>
+            </div>
+        </div>
+
+        <!-- Dice Roll Betting Game -->
+        <div class="game">
+            <h2>Dice Roll Betting</h2>
+            <div class="dice-game">
+                <button id="betOver">Bet Over 7</button>
+                <button id="betUnder">Bet Under 7</button>
+                <button id="betSeven">Bet 7</button>
+                <p>Dice Rolls: <span id="diceRolls">-</span></p>
+                <p id="diceMessage"></p>
+            </div>
+        </div>
+
+        <!-- Coin Flip Betting -->
+        <div class="game">
+            <h2>Coin Flip Betting</h2>
+            <div class="coin-flip-game">
+                <button id="betHeads">Bet Heads</button>
+                <button id="betTails">Bet Tails</button>
+                <p>Result: <span id="coinResult">-</span></p>
+                <p id="coinMessage"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
